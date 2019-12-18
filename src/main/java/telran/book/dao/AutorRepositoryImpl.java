@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import telran.book.model.Author;
 @Service
-public class AutorRepositoryImpl implements AutorRepository {
+public class AutorRepositoryImpl  implements AutorRepository {
 	@PersistenceContext
 	EntityManager em;
 	@Override
